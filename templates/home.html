@@ -1,0 +1,193 @@
+{% extends '_base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Slider Section Start -->
+	<div id="particles-bg" class="slider-area slider-five bg-color-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="slider-text ptb-155">
+						<h1 class="font-50 mb-5">Hello, <br /> I Am Carl Obrien </h1>
+						<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has <br /> roots in a piece of classical Latin literature from 45 BC, making</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Slider Section End -->
+    <!-- Portfolio Section Start -->
+    <div class="portfolio-area portfolio-five white-bg section-padding clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+					<div class="portfolio-menu hover-1 text-left">
+						<ul class="clearfix mb-40">
+							<li data-filter="*" class="active">All</li>
+							<li data-filter=".web">Web</li>
+							<li data-filter=".design">Design</li>
+							<li data-filter=".new">new</li>
+							<li data-filter=".print">Print</li>
+							<li data-filter=".work3d">3d work</li>
+						</ul>
+					</div>
+                    <div class="portfolio-grid fitRows-grid hover-1">
+                        <div class="grid-item work3d print percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="{% static 'assets/img/logo.png' %}" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="{% static 'assets/img/portfolio/five/1.jpg' %}">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item web print new percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="{% static 'assets/img/portfolio/five/2.jpg' %}" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="{% static 'assets/img/portfolio/five/2.jpg' %}">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d design new percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/3.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="{% static 'assets/img/portfolio/five/3.jpg' %}">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d print web percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="{% static 'assets/img/portfolio/five/4.jpg' %}" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="{% static 'assets/img/portfolio/five/4.jpg' %}">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d design new percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/5.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="assets/img/portfolio/five/5.jpg">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d print design percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/6.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="assets/img/portfolio/five/6.jpg">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d print percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/7.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="assets/img/portfolio/five/7.jpg">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item web print new percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/8.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="assets/img/portfolio/five/8.jpg">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                        <div class="grid-item work3d design new percent-33">
+                            <div class="single-portfolio overlay">
+                                <img src="assets/img/portfolio/five/9.jpg" alt="MiniPo" />
+                                <div class="zoom-icon">
+                                    <a class="venobox" data-gall="gall-img" href="assets/img/portfolio/five/9.jpg">
+                                        <i class="zmdi zmdi-fullscreen"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="project-title text-center">
+                                <a href="portfolio-details-5.html"><h4 class="mb-5">Portfolio Item Title</h4></a>
+                                <p>Print, Branding</p>
+								<hr class="line"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="view-all unset text-center">
+                        <a class="btn mt-40" href="portfolio-3-style-2.html">View More <i class="zmdi zmdi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Section End -->
+	<!-- Promo Area Start -->
+	<div class="promo-area promo-one light-bg ptb-100">
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-xs-12 col-sm-8 col-md-6 col-text-center">
+					<div class="promo-text">
+						<h2>Need a Project?</h2>
+						<p class="mb-40">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making </p>
+						<a class="btn" href="#">Let's Talk</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Promo Area End -->
+{% endblock content %}
